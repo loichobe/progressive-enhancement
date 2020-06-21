@@ -1,0 +1,400 @@
+body {
+  background-color: #e9edf2;
+  color: #202528;
+  margin: 0;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 300;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #e9edf2;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 30%;
+}
+
+nav ul li {
+  height: 100%;
+  width: auto;
+  margin: 0 1.5%;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+nav ul li a {
+  color: #202528;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+nav img {
+  width: 50%;
+}
+
+#view div {
+  padding-top: -40px;
+  padding-bottom: 30px;
+}
+
+#view div h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  font-family: 'Noto Sans HK', Arial;
+  font-weight: normal;
+}
+
+#tools {
+  background-color: #414450;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+
+#tools .windows-small {
+  text-align: center;
+  border: 1px solid #1d232a;
+  border-width: thin;
+  width: 20%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#tools .windows-small h2 {
+  font-family: 'Noto Sans HK', Arial;
+  color: #ffffff;
+}
+
+#tools .windows-small p {
+  display: inline-block;
+  color: #ACAFB4;
+  font-family: 'Noto Sans HK', Arial;
+  font-size: 18px;
+  width: 100%;
+}
+
+#tools .windows-large {
+  text-align: center;
+  width: 30%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#tools .windows-large h2 {
+  font-family: 'Noto Sans HK', Arial;
+  color: #ffffff;
+}
+
+#tools .windows-large p {
+  display: inline-block;
+  color: #ACAFB4;
+  font-family: 'Noto Sans HK', Arial;
+  font-size: 17px;
+  width: 100%;
+}
+
+#main {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#main .main .main-text {
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+#main .main .main-text span {
+  letter-spacing: -2px;
+}
+
+#main .main #main-button {
+  color: #FFFFFF;
+  background-color: #3093F7;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  width: 280px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#cloud {
+  background-color: #FFFFFF;
+}
+
+#cloud .cloudm {
+  text-align: center;
+}
+
+#cloud .cloudm h2 {
+  color: #202528;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+#cloud .cloudm p {
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  line-height: 1.3;
+  margin-top: 0;
+}
+
+#cloud .cost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#cloud .price p {
+  text-align: center;
+  width: 100%;
+}
+
+#cloud .price h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#cloud .price #plan {
+  color: #FFFFFF;
+  background-color: #3093F7;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 140px;
+  height: 34px;
+  font-size: 16px;
+}
+
+#cloud #border {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border: 1px solid #d9d9d9;
+  margin: -10px 50px -10px 50px;
+}
+
+#cloud #border p {
+  text-align: center;
+  width: 100%;
+}
+
+#cloud #border h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#cloud #border #self {
+  color: #FFFFFF;
+  background-color: #3093F7;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 170px;
+  height: 34px;
+  font-size: 16px;
+}
+
+.users {
+  text-align: center;
+}
+
+.users .dusers h2 {
+  color: #202528;
+}
+
+.users .dusers p {
+  font-weight: 300;
+}
+
+#formulaire {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+#formulaire .start h2 {
+  color: #202528;
+}
+
+#formulaire .form {
+  padding-top: 30px;
+}
+
+#formulaire .form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #e9edf2;
+  border: 1px solid #7c7e80;
+  border-radius: 7px;
+  width: 20%;
+  text-align: left;
+  margin: auto;
+  padding: 30px 30px 30px 30px;
+  font-weight: 400;
+}
+
+#formulaire .form input {
+  width: 90%;
+  padding: 5px;
+}
+
+#formulaire .form input p {
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+#formulaire .form #fob {
+  padding-top: 30px;
+}
+
+#formulaire .form #formb {
+  color: #FFFFFF;
+  background-color: #3093F7;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 180px;
+  height: 34px;
+  font-size: 16px;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#data {
+  display: block;
+  font-size: 12px;
+  padding-bottom: 70px;
+  color: #9ea2a9;
+}
+
+#data a {
+  color: #9ea2a9;
+  padding-top: 50px;
+}
+
+footer {
+  text-align: center;
+  background-color: #414450;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+footer .footer {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer .flink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+footer .footer .flink h4 {
+  color: #9ea2a9;
+}
+
+footer .footer .flink a {
+  font-size: 16px;
+}
+
+footer .footer .flink a:link {
+  text-decoration: none;
+  color: #d6d8d8;
+}
+
+footer .footer .flink a:visited {
+  color: #d6d8d8;
+}
+
+.flogo {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#happy {
+  color: #9ea2a9;
+  font-weight: 300;
+}
+
+#try {
+  color: #ffffff;
+  background-color: #3093F7;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  width: 100px;
+  height: 27px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#try a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#sign {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  width: 100px;
+  height: 27px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#sign a {
+  text-decoration: none;
+  color: #000000;
+}
+
+#more {
+  color: #7F8899;
+}
+/*# sourceMappingURL=style.css.map */
